@@ -69,16 +69,13 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 0 20px; /* Adjust this as needed for padding */
-  margin: 0 auto; /* Center horizontally */
-  max-width: 1200px; /* Optional: to limit the width of the nav */
+  max-width: 100%; /* Optional: to limit the width of the nav */
   width: 100%; /* Ensure the nav takes full width */
   box-sizing: border-box; /* Include padding in the width */
   position: fixed;
-  top: 10px;
-  left: 100px;
+  top: 0; /* Align to the top of the screen */
   z-index: 1;
-  
+  background-color: #000; /* Black background */
 }
 
 
