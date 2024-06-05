@@ -67,6 +67,6 @@ This project exists thanks to the hard work and dedication of the following peop
 
 - Espinoza, Oliver Lawrence D.
 - Santos, Justine P.
-- Limlingan, Angela C.
+- Limlingan, Angela Giel C.
 - Tolentino, Charles John T.
 ---
