@@ -397,26 +397,16 @@ nav {
   gap: 20px;
 }
 
-.reactions {
-  display: flex;
-  align-items: center;
-  gap: 10px;
+.bullish.reactions a,
+.bullish.reactions a i,
+.bullish.reactions a #bullish__reacts {
+  color: green;
 }
 
-.reactions a {
-  color: #fff;
-  font-size: 1rem;
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
-
-.reactions i {
-  font-size: 1.5rem;
-}
-
-.reactions a:hover {
-  color: #e50914;
+.bearish.reactions a,
+.bearish.reactions a i,
+.bearish.reactions a #bearish__reacts {
+  color: red;
 }
 
 /* News Section */
