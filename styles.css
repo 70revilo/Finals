@@ -75,7 +75,11 @@ nav {
   position: fixed;
   top: 0; /* Align to the top of the screen */
   z-index: 1;
-  background-color: #000; /* Black background */
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 
 
@@ -163,7 +167,6 @@ nav {
 @media (max-width: 768px) {
   .nav__links {
     position: fixed;
-    background: #000000;
     height: 75vh;
     width: 30%;
     flex-direction: column;
@@ -173,6 +176,11 @@ nav {
     right: -100%;
     transition: 0.4s;
     z-index: 1;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
   }
 
   .nav__link {
